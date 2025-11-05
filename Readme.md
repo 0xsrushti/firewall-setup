@@ -1,4 +1,4 @@
-# 🔥 Task 4 – Setup and Use a Firewall on Linux (UFW)
+# 🔥 Setup and Use a Firewall on Linux (UFW)
 **Author:** Srushti Dave 
 **Internship:** Cyber Security Internship  
 **Repository:** firewall-setup-
@@ -94,6 +94,8 @@ Status: active
 [ 1] 22/tcp                     ALLOW IN    Anywhere
 [ 2] 22/tcp (v6)                ALLOW IN    Anywhere (v6)
 ```
+---
+
 ## 📸 Screenshots
 
 ### 1️⃣ Check Firewall Status
@@ -119,3 +121,24 @@ Status: active
 
 ### 8️⃣ Export Final Rules
 ![Export Firewall Rules](screenshots/export_rules.png)
+
+---
+
+## ⚙️ Usage
+###🧩 run_commands.sh
+Automates the complete firewall configuration and testing process.
+###▶️ Run the Script
+```bash
+chmod +x run_commands.sh
+./run_commands.sh
+```
+---
+
+##📄 ufw_rules.txt
+Stores the exported list of currently active UFW rules after configuration.
+###🪶 View the Rules
+```bash
+cat ufw_rules.txt
+```
+---
+
