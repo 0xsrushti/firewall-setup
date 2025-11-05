@@ -1,6 +1,8 @@
 # 🔥 Setup and Use a Firewall on Linux (UFW)
 **Author:** Srushti Dave
-**Internship:** Cyber Security Internship  
+
+**Internship:** Cyber Security Internship
+
 **Repository:** firewall-setup-
 **Objective:** Configure and test basic firewall rules to allow or block specific network traffic using **UFW (Uncomplicated Firewall)**.
 
