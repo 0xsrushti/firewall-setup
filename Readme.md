@@ -31,9 +31,13 @@ This task demonstrates how to use **UFW** on Linux to:
 ### **1️⃣ Check Firewall Status**
 ```bash
 sudo ufw status verbose
+
 ### **2️⃣ Enable Firewall**
+```bash
 sudo ufw enable
+
 ### **3️⃣ Allow SSH (Port 22)**
+```bash
 sudo ufw allow 22/tcp
 ### **4️⃣ Block Telnet (Port 23)**
 sudo ufw deny 23/tcp
