@@ -141,4 +141,6 @@ Stores the exported list of currently active UFW rules after configuration.
 cat ufw_rules.txt
 ```
 ---
-
+## 👩‍💻 Author
+**Srushti Dave**
+---
