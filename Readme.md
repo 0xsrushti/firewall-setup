@@ -125,18 +125,18 @@ Status: active
 ---
 
 ## ⚙️ Usage
-###🧩 run_commands.sh
+### 🧩 run_commands.sh
 Automates the complete firewall configuration and testing process.
-###▶️ Run the Script
+### ▶️ Run the Script
 ```bash
 chmod +x run_commands.sh
 ./run_commands.sh
 ```
 ---
 
-##📄 ufw_rules.txt
+## 📄 ufw_rules.txt
 Stores the exported list of currently active UFW rules after configuration.
-###🪶 View the Rules
+### 🪶 View the Rules
 ```bash
 cat ufw_rules.txt
 ```
